@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import ExploreCategories from '../ExploreCategories/ExploreCategories';
 import NavbarText from '../NavbarText/NavbarText';
 import MainWebsiteButton from '../MainWebsiteButton/MainWebsiteButton';
@@ -14,9 +13,6 @@ const Navbar = ({ categories }) => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-5 mb-5">
-      {/* <Link to="/" className="navbar-brand btn btn-link">
-        <h2>EDYODA</h2>
-      </Link> */}
       <BrandLogo className="navbar-brand btn btn-link"/>
       <button
         className="navbar-toggler"
