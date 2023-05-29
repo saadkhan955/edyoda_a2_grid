@@ -1,0 +1,36 @@
+.filterButton_wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.filterButton_wrapper_icon{
+ color: #0096ff;
+}
+
+.filter-button {
+  cursor: pointer;
+  padding: 6px 14px;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-button.active {
+  background: linear-gradient(270deg, #0048ff, #0096ff);
+  color: white;
+}
+
+.filter-button:hover {
+  /* background-color: #f2f2f2;
+  color: #0048ff; */
+  background: linear-gradient(270deg, #0048ff, #0096ff);
+  color: white;
+}
+
+.filter-button.active:hover {
+  background: linear-gradient(270deg, #0096ff, #0048ff);
+  color: white;
+}
+
